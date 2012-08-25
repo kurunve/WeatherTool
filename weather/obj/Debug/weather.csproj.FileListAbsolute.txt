@@ -1,0 +1,5 @@
+c:\users\lord\documents\visual studio 2010\Projects\WeatherTool\weather\bin\Debug\weather.dll
+c:\users\lord\documents\visual studio 2010\Projects\WeatherTool\weather\bin\Debug\weather.pdb
+c:\users\lord\documents\visual studio 2010\Projects\WeatherTool\weather\obj\Debug\ResolveAssemblyReference.cache
+c:\users\lord\documents\visual studio 2010\Projects\WeatherTool\weather\obj\Debug\weather.dll
+c:\users\lord\documents\visual studio 2010\Projects\WeatherTool\weather\obj\Debug\weather.pdb
