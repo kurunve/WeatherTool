@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "weather", "weather\weather.csproj", "{5E051673-47FC-4F92-9074-DB438E0006FE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weather", "weather\Weather.csproj", "{5E051673-47FC-4F92-9074-DB438E0006FE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWeather", "TestWeather\TestWeather.csproj", "{5CD243CB-D466-441E-98C0-444320053481}"
 EndProject
