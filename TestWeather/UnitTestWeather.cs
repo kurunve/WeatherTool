@@ -12,7 +12,10 @@ namespace TestWeather
         [TestMethod]
         public void TestMethodWeather1()
         {
-               
+            Guid g1 = Weather.Generator.getRandomGuid();
+            Guid g2 = Weather.Generator.getRandomGuid();
+                
+            Assert.AreNotEqual(g1,g2);
         }
     }
 }

@@ -6,3 +6,8 @@ c:\users\lord\documents\visual studio 2010\Projects\WeatherTool\weather\obj\Debu
 D:\VAdev\hobby\WeatherTool\weather\obj\Debug\ResolveAssemblyReference.cache
 D:\VAdev\hobby\WeatherTool\weather\obj\Debug\weather.dll
 D:\VAdev\hobby\WeatherTool\weather\obj\Debug\weather.pdb
+D:\Projects\ggt\WeatherTool\weather\bin\Debug\weather.dll
+D:\Projects\ggt\WeatherTool\weather\bin\Debug\weather.pdb
+D:\Projects\ggt\WeatherTool\weather\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\ggt\WeatherTool\weather\obj\Debug\weather.dll
+D:\Projects\ggt\WeatherTool\weather\obj\Debug\weather.pdb

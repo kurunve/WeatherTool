@@ -46,7 +46,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnitTest1.cs" />
     <Compile Include="UnitTestWeather.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\weather\Weather.csproj">
+      <Project>{5E051673-47FC-4F92-9074-DB438E0006FE}</Project>
+      <Name>Weather</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
