@@ -1,0 +1,16 @@
+bin/
+obj/
+TestResults/
+Reports/
+_ReSharper.*/
+FxCopRules/
+
+
+*.dotCover
+*.ncrunchsolution
+*.DotSettings
+*.orig
+*.ReSharper
+*.suo
+*.user
+packages
