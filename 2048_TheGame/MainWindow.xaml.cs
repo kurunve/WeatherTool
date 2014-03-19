@@ -23,5 +23,10 @@ namespace _2048_TheGame
         {
             InitializeComponent();
         }
+
+        private void MenuItemCloseClick(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
     }
 }

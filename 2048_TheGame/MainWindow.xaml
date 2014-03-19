@@ -3,6 +3,12 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="396" Width="555">
     <Grid>
-        
+        <Menu IsMainMenu="True">
+            <MenuItem Header="_File" >
+                <MenuItem Header="_New" />
+                <MenuItem Header="_Close"  Click="MenuItemCloseClick" />
+            </MenuItem>
+            <MenuItem Header="_Help" />
+        </Menu>
     </Grid>
 </Window>
