@@ -1,14 +1,28 @@
-﻿<Window x:Class="_2048_TheGame.MainWindow"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="396" Width="555">
-    <Grid>
-        <Menu IsMainMenu="True">
-            <MenuItem Header="_File" >
-                <MenuItem Header="_New" />
-                <MenuItem Header="_Close"  Click="MenuItemCloseClick" />
-            </MenuItem>
-            <MenuItem Header="_Help" />
-        </Menu>
-    </Grid>
+﻿<Window x:Class="_2048_TheGame.MainWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Title="MainWindow" Height="720" Width="800" WindowStyle="None"
+        ResizeMode="NoResize">
+
+  <Grid Loaded="Grid_Loaded">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="40" />
+      <RowDefinition Height="672" />
+      <RowDefinition Height="*" />
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="80" />
+      <ColumnDefinition Width="672" />
+      <ColumnDefinition Width="*" />
+    </Grid.ColumnDefinitions>
+    <DockPanel Grid.Column="0" Grid.Row="0">
+      <Button Height="40" Width="40" Content="New" Click="MenuItemCloseClick"></Button>
+      <Button Height="40" Width="40" Content="Exit" Click="MenuItemCloseClick"></Button>
+    </DockPanel>
+    <DockPanel Name="ScorePanel" Grid.Column="1" Grid.Row="0" MouseDown="ScorePanel_MouseDown"
+               Background="LightGray">
+    </DockPanel>
+    <DockPanel Name="LeftPanel" Grid.Column="0" Grid.Row="1" MouseDown="ScorePanel_MouseDown"
+               Background="LightGray"></DockPanel>
+    <Canvas Name="GameFieldCanvas" Grid.Column="1" Grid.Row="1" Background="#C7F0D9">
+    </Canvas>
+  </Grid>
 </Window>
